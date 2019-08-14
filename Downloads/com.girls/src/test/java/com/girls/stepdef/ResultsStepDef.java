@@ -26,7 +26,7 @@ public class ResultsStepDef {
     @Then("^I select the \"([^\"]*)\"$")
     public void iSelectThe(String customerSelectedPrice) {
        resultsPage.sortBy(customerSelectedPrice);
-         resultsPage.getAllSortedProductOnPrice();
+        // resultsPage.getAllSortedProductOnPrice();
        // assertThat("sort is not selected",actuallist.equals("£"));
     }
 
